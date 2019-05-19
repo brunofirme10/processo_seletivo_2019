@@ -3,9 +3,6 @@
 1. Tenha certeza que você possui em seu _command line_ as ferramentas: PHP, Composer e Node.
 2. Clone o repositório e instale executando os comandos abaixo:
 
-```
-git clone https://github.com/whatysonneves/bruno-desafio-2.git
-cd bruno-desafio-2
 composer install
 php -r "file_exists('.env') || copy('.env.example', '.env');"
 php artisan key:generate --ansi
