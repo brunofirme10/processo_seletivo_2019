@@ -1,7 +1,8 @@
-<h1>**Desafio 1**</h1>
+# Como acessar
 
-><p>Baseado na imagem "bootstrap" crie um proejto</p>
-><p>Trabalhe com bootstrap, https://getbootstrap.com/docs/4.3/getting-started/introduction/ e monte uma estrutura html</p> 
-><p>Todos os items na imagem são components https://getbootstrap.com/docs/4.3/components</p>
+1. Clone o repositório.
+2. Abra o arquivo index.html no navegador de sua preferência.
 
+# Conteúdo
 
+- Página HTML construída através do Bootstrap 4 de acordo layout proposto.

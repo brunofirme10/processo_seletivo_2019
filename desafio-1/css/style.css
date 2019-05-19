@@ -1,0 +1,59 @@
+
+nav img {
+    width: 100px;
+    height: 50px;
+    background: none;
+}
+
+.initial h1 {
+    margin: 20px;
+    font-family: Stencil Std, fantasy;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.initial h2 {
+    margin: 20px;
+    font-family: Stencil Std, fantasy;
+    font-weight: inherit;
+    color: lightslategray;
+    font-size: 28px;
+}
+
+article p {
+    margin: 10px;
+    font-family: Stencil Std, fantasy;
+    font-size: 20px;
+    text-align: justify;
+}
+
+body {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 0px;
+}
+
+.container-fluid {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.container-fluid img{
+    height: 200px;
+    width: 285px;
+}
+
+.card {
+    width: 18em;
+}
+
+.pagination {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination li {
+    display: block;
+   }
