@@ -33,19 +33,6 @@
 				<div class="lista"><!--Lista de Noticias-->
 @include("noticias.procurar")
 @yield("content")
-					<hr />
-					<ul class="pagination">
-						<li class="active page-item"><a class="page-link" href="">1</a></li>
-						<li class="page-item"><a class="page-link" href="">2</a></li>
-						<li class="page-item"><a class="page-link" href="">3</a></li>
-						<li class="page-item">
-							<a class="page-link" href="" aria-label="Next">
-								<span aria-hidden="true">&raquo;</span>
-								<span class="sr-only">Next</span>
-							</a>
-						</li>
-					</ul>
-					<!--Fim Paginação-->
 				</div><!--Fim Lista de Noticias-->
 			</div><!-- final conteudo-esquerda -->
 		</div><!-- final centraliza -->
