@@ -1,0 +1,13 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito:100,200,600');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// CNM Desenvolvimento
+$fa-font-path: "~font-awesome/fonts" !default;
+@import '~font-awesome/css/font-awesome.css';
+@import 'cnm.css';
