@@ -33,7 +33,7 @@
 				<div class="lista"><!--Lista de Noticias-->
 @include("noticias.procurar")
 @yield("content")
-				</div><!--Fim Lista de Noticiass-->
+				</div><!--Fim Lista de Noticias-->
 			</div><!-- final conteudo-esquerda -->
 		</div><!-- final centraliza -->
 	</section>
