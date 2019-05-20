@@ -1,16 +1,12 @@
+# Como instalar
 
-<h1>**Desafio 2**</h1>
+1. Tenha certeza que você possui em seu _command line_ as ferramentas: PHP, Composer e Node.
+2. Clone o repositório e instale executando os comandos abaixo:
 
-><h3>**Instruções**</h3>
-> <p>- Observe que existe uma estrutura simples de pasta, onde se encrontra um arquivo index.html com uma lista de noticias estaticas.</p>
-> <p>- Baseado nessa simples estrutura pastas crie um projeto Laravel e adapte a estrutura de pastas do framework.</p>
-> <p>- EndPoint principal: http://www.marcha.cnm.org.br/webservice/noticias</p>
-> <p>- Traga de uma forma dinamica a lista de noticias com as informações disponibilizadas através de da API.</p>
-> <p>- A previa dessas noticias deverá conter no máximo 300 caracteres.</p>
-> <p>- Crei um filtro de noticias atraves do campo de busca. Para pesquisar as noticias, basta usar o parâmetro 'pesquisa' na URL: http://www.marcha.cnm.org.br/webservice/noticias?pesquisa=exemplo</p>
-> <p>- Crie uma paginação, o parâmetro da paginação é 'page'. EX: http://www.marcha.cnm.org.br/webservice/noticias?page=3</p>
+composer install
+php -r "file_exists('.env') || copy('.env.example', '.env');"
+php artisan key:generate --ansi
+php artisan serve
+```
 
-
-
-
-
+Depois disso, acesse [http://localhost:8000/](http://localhost:8000/)
