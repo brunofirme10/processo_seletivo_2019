@@ -10,3 +10,4 @@ php artisan serve
 ```
 
 Depois disso, acesse [http://localhost:8000/](http://localhost:8000/)
+ 
